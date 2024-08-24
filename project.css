@@ -1,0 +1,42 @@
+a{
+    font-size: 20px;
+   text-decoration: none;
+   display:inline-flex;
+   cursor: pointer;
+   font-size: 35px;
+}
+a:hover{
+    color: yellow;
+}
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+p{
+    color: rgb(18, 2, 61);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+section{
+    border: dotted;
+    padding-bottom: 1px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: solid black;
+    height: 200px;
+}
+.child{
+    border: 2px solid black;  
+}
+header{
+    position: sticky;
+    left: 0;
+    top: 0;
+    
+}
